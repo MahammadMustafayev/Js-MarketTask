@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mix-basket{
+    width: 30%;
+    height: 70vh;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fruits-size{
+    width: 30%;
+    height: 70vh;
+    
+}
+.fruits-size img{
+    width: 120px;
+    height: 120px;
+}
+
+.new-basket{
+    width: 10%;
+    height: 5vh;
+    border: 1px solid black;
+    font-size: 25px;
+    float: right;
+    cursor: pointer;
+}
+.new-1{
+    width:40%;
+    height: 75vh;
+    border: 1px solid black;
+    float: right;
+    margin-right: 120px;
+    display: none; 
+}
+.new-1 img{
+    width: 80px;
+    height: 80px;
+    
+}
